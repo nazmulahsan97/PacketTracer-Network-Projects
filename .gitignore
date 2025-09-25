@@ -1,14 +1,51 @@
-# macOS system files
+# ===========================
+# OS-specific files
+# ===========================
+
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
 
-# Windows system files
+# Windows
 Thumbs.db
-desktop.ini
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
 
-# IDE/editor files
+# Linux
+*~
+
+# ===========================
+# Editor/IDE settings
+# ===========================
 .vscode/
+.idea/
 *.code-workspace
 
-# Backup or temp files
+# ===========================
+# Backup & Temp files
+# ===========================
 *.bak
 *.tmp
+*.swp
+*.swo
+
+# ===========================
+# Logs
+# ===========================
+*.log
+
+# ===========================
+# Ignore archives (if you zip projects)
+# ===========================
+*.zip
+*.rar
+*.7z
+
+# ===========================
+# IMPORTANT
+# ===========================
+# Keep Packet Tracer files (.pkt)
+# Do NOT ignore them
+!*.pkt
